@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HHP">
+	<test name="LoginPageTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="pageURL" value="/login-2/" />	<!-- used in HeaderTest.java -->
+		<classes>
+			<class name="org.hhp.testCases.HomeTest" />	
+		</classes>
+
+	</test>
+
+</suite>

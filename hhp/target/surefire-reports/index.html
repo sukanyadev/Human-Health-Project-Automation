@@ -1,0 +1,1268 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-HHP" class="navigator-link">
+              <span class="suite-name border-skipped">HHP</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-HHP" class="navigator-link ">
+                    <span>C:\Eclipse Workspace\HHP-AutomationTesting\hhp\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-HHP" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-HHP" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-HHP" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-HHP" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-HHP" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-HHP" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">40 methods,  40 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-HHP" class="hide-methods skipped suite-HHP"> (hide)</a> <!-- hide-methods skipped suite-HHP -->
+                      <a href="#" panel-name="suite-HHP" class="show-methods skipped suite-HHP"> (show)</a> <!-- show-methods skipped suite-HHP -->
+                    </span>
+                    <div class="method-list-content skipped suite-HHP">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="donatePageSetup">donatePageSetup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="footer_Setup">footer_Setup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="headerSetup(/paypal-donate/)">headerSetup(/paypal-donate/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="logoClickTest">logoClickTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="verifyHowToHelpMenu">verifyHowToHelpMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="verifyLoginBtn">verifyLoginBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="verifyLogo">verifyLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="verifyMedDisLnk">verifyMedDisLnk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="verifyNewsMenu">verifyNewsMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="verifyWhatWeDoLnk">verifyWhatWeDoLnk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="verifyWhoWeAreLnk">verifyWhoWeAreLnk</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.HeaderTest" class="method navigator-link" hash-for-method="verifyWhyHHPMenu">verifyWhyHHPMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Education_Image">verify_Education_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Education_Text">verify_Education_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Equality_Image">verify_Equality_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column1_Chart">verify_Footer_Column1_Chart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column1_Title">verify_Footer_Column1_Title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column2_Text">verify_Footer_Column2_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column2_Title">verify_Footer_Column2_Title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column3_Facebook_Icon">verify_Footer_Column3_Facebook_Icon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column3_Instagram_Icon">verify_Footer_Column3_Instagram_Icon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column3_LinkedIn_Icon">verify_Footer_Column3_LinkedIn_Icon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column3_QLinks_Text">verify_Footer_Column3_QLinks_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column3_Title">verify_Footer_Column3_Title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_Column3_Twitter_Icon">verify_Footer_Column3_Twitter_Icon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_ContactUs_Link">verify_Footer_ContactUs_Link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_MedicalDisclaimer_Link">verify_Footer_MedicalDisclaimer_Link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_PrivacyPolicy_Link">verify_Footer_PrivacyPolicy_Link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Footer_TermsofService_Link">verify_Footer_TermsofService_Link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_GiveToday_Btn">verify_GiveToday_Btn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_GiveToday_Image">verify_GiveToday_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Greatnonprofits_Image">verify_Greatnonprofits_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.FooterTest" class="method navigator-link" hash-for-method="verify_Guidestar_Image">verify_Guidestar_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Information_Image">verify_Information_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Information_Text">verify_Information_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Row1_Column1_Text1">verify_Row1_Column1_Text1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Row1_Column1_Text2">verify_Row1_Column1_Text2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Row3_Text">verify_Row3_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Support_Image">verify_Support_Image</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-HHP" title="org.hhp.testCases.TC_DonatePageTest_003" class="method navigator-link" hash-for-method="verify_Support_Text">verify_Support_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-HHP -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HHP" class="panel HHP">
+          <div class="suite-HHP-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.hhp.testCases.HeaderTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="headerSetup(/paypal-donate/)">
+                  </a> <!-- headerSetup(/paypal-donate/) -->
+                  <span class="method-name">headerSetup</span>
+                  <span class="parameters">(/paypal-donate/)</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: C:\Eclipse Workspace\HHP-AutomationTesting\hhp\Eclipse WorkspaceHHP-AutomationTestinghhpDriverschromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at org.hhp.testCases.BaseClass.setup(BaseClass.java:46)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoClickTest">
+                  </a> <!-- logoClickTest -->
+                  <span class="method-name">logoClickTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.logoClickTest()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHowToHelpMenu">
+                  </a> <!-- verifyHowToHelpMenu -->
+                  <span class="method-name">verifyHowToHelpMenu</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.verifyHowToHelpMenu()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginBtn">
+                  </a> <!-- verifyLoginBtn -->
+                  <span class="method-name">verifyLoginBtn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.verifyLoginBtn()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogo">
+                  </a> <!-- verifyLogo -->
+                  <span class="method-name">verifyLogo</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.verifyLogo()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMedDisLnk">
+                  </a> <!-- verifyMedDisLnk -->
+                  <span class="method-name">verifyMedDisLnk</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.verifyMedDisLnk()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNewsMenu">
+                  </a> <!-- verifyNewsMenu -->
+                  <span class="method-name">verifyNewsMenu</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.verifyNewsMenu()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWhatWeDoLnk">
+                  </a> <!-- verifyWhatWeDoLnk -->
+                  <span class="method-name">verifyWhatWeDoLnk</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.verifyWhatWeDoLnk()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWhoWeAreLnk">
+                  </a> <!-- verifyWhoWeAreLnk -->
+                  <span class="method-name">verifyWhoWeAreLnk</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.verifyWhoWeAreLnk()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWhyHHPMenu">
+                  </a> <!-- verifyWhyHHPMenu -->
+                  <span class="method-name">verifyWhyHHPMenu</span>
+                  <div class="stack-trace">java.lang.Throwable: Method HeaderTest.verifyWhyHHPMenu()[pri:0, instance:org.hhp.testCases.HeaderTest@6f96c77] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HHP-class-skipped -->
+          <div class="suite-HHP-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.hhp.testCases.TC_DonatePageTest_003</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="donatePageSetup">
+                  </a> <!-- donatePageSetup -->
+                  <span class="method-name">donatePageSetup</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: C:\Eclipse Workspace\HHP-AutomationTesting\hhp\Eclipse WorkspaceHHP-AutomationTestinghhpDriverschromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at org.hhp.testCases.BaseClass.setup(BaseClass.java:46)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Education_Image">
+                  </a> <!-- verify_Education_Image -->
+                  <span class="method-name">verify_Education_Image</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Education_Image()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Education_Text">
+                  </a> <!-- verify_Education_Text -->
+                  <span class="method-name">verify_Education_Text</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Education_Text()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Equality_Image">
+                  </a> <!-- verify_Equality_Image -->
+                  <span class="method-name">verify_Equality_Image</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Equality_Image()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_GiveToday_Btn">
+                  </a> <!-- verify_GiveToday_Btn -->
+                  <span class="method-name">verify_GiveToday_Btn</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_GiveToday_Btn()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_GiveToday_Image">
+                  </a> <!-- verify_GiveToday_Image -->
+                  <span class="method-name">verify_GiveToday_Image</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_GiveToday_Image()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Information_Image">
+                  </a> <!-- verify_Information_Image -->
+                  <span class="method-name">verify_Information_Image</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Information_Image()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Information_Text">
+                  </a> <!-- verify_Information_Text -->
+                  <span class="method-name">verify_Information_Text</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Information_Text()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Row1_Column1_Text1">
+                  </a> <!-- verify_Row1_Column1_Text1 -->
+                  <span class="method-name">verify_Row1_Column1_Text1</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Row1_Column1_Text1()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Row1_Column1_Text2">
+                  </a> <!-- verify_Row1_Column1_Text2 -->
+                  <span class="method-name">verify_Row1_Column1_Text2</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Row1_Column1_Text2()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Row3_Text">
+                  </a> <!-- verify_Row3_Text -->
+                  <span class="method-name">verify_Row3_Text</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Row3_Text()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Support_Image">
+                  </a> <!-- verify_Support_Image -->
+                  <span class="method-name">verify_Support_Image</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Support_Image()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Support_Text">
+                  </a> <!-- verify_Support_Text -->
+                  <span class="method-name">verify_Support_Text</span>
+                  <div class="stack-trace">java.lang.Throwable: Method TC_DonatePageTest_003.verify_Support_Text()[pri:0, instance:org.hhp.testCases.TC_DonatePageTest_003@418e7838] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HHP-class-skipped -->
+          <div class="suite-HHP-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">org.hhp.testCases.FooterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="footer_Setup">
+                  </a> <!-- footer_Setup -->
+                  <span class="method-name">footer_Setup</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: The driver executable does not exist: C:\Eclipse Workspace\HHP-AutomationTesting\hhp\Eclipse WorkspaceHHP-AutomationTestinghhpDriverschromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:156)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:346)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at org.hhp.testCases.BaseClass.setup(BaseClass.java:46)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column1_Chart">
+                  </a> <!-- verify_Footer_Column1_Chart -->
+                  <span class="method-name">verify_Footer_Column1_Chart</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column1_Chart()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column1_Title">
+                  </a> <!-- verify_Footer_Column1_Title -->
+                  <span class="method-name">verify_Footer_Column1_Title</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column1_Title()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column2_Text">
+                  </a> <!-- verify_Footer_Column2_Text -->
+                  <span class="method-name">verify_Footer_Column2_Text</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column2_Text()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column2_Title">
+                  </a> <!-- verify_Footer_Column2_Title -->
+                  <span class="method-name">verify_Footer_Column2_Title</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column2_Title()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column3_Facebook_Icon">
+                  </a> <!-- verify_Footer_Column3_Facebook_Icon -->
+                  <span class="method-name">verify_Footer_Column3_Facebook_Icon</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column3_Facebook_Icon()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column3_Instagram_Icon">
+                  </a> <!-- verify_Footer_Column3_Instagram_Icon -->
+                  <span class="method-name">verify_Footer_Column3_Instagram_Icon</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column3_Instagram_Icon()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column3_LinkedIn_Icon">
+                  </a> <!-- verify_Footer_Column3_LinkedIn_Icon -->
+                  <span class="method-name">verify_Footer_Column3_LinkedIn_Icon</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column3_LinkedIn_Icon()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column3_QLinks_Text">
+                  </a> <!-- verify_Footer_Column3_QLinks_Text -->
+                  <span class="method-name">verify_Footer_Column3_QLinks_Text</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column3_QLinks_Text()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column3_Title">
+                  </a> <!-- verify_Footer_Column3_Title -->
+                  <span class="method-name">verify_Footer_Column3_Title</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column3_Title()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_Column3_Twitter_Icon">
+                  </a> <!-- verify_Footer_Column3_Twitter_Icon -->
+                  <span class="method-name">verify_Footer_Column3_Twitter_Icon</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_Column3_Twitter_Icon()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_ContactUs_Link">
+                  </a> <!-- verify_Footer_ContactUs_Link -->
+                  <span class="method-name">verify_Footer_ContactUs_Link</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_ContactUs_Link()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_MedicalDisclaimer_Link">
+                  </a> <!-- verify_Footer_MedicalDisclaimer_Link -->
+                  <span class="method-name">verify_Footer_MedicalDisclaimer_Link</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_MedicalDisclaimer_Link()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_PrivacyPolicy_Link">
+                  </a> <!-- verify_Footer_PrivacyPolicy_Link -->
+                  <span class="method-name">verify_Footer_PrivacyPolicy_Link</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_PrivacyPolicy_Link()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Footer_TermsofService_Link">
+                  </a> <!-- verify_Footer_TermsofService_Link -->
+                  <span class="method-name">verify_Footer_TermsofService_Link</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Footer_TermsofService_Link()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Greatnonprofits_Image">
+                  </a> <!-- verify_Greatnonprofits_Image -->
+                  <span class="method-name">verify_Greatnonprofits_Image</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Greatnonprofits_Image()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Guidestar_Image">
+                  </a> <!-- verify_Guidestar_Image -->
+                  <span class="method-name">verify_Guidestar_Image</span>
+                  <div class="stack-trace">java.lang.Throwable: Method FooterTest.verify_Guidestar_Image()[pri:0, instance:org.hhp.testCases.FooterTest@61230f6a] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HHP-class-skipped -->
+        </div> <!-- panel HHP -->
+        <div panel-name="test-xml-HHP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Eclipse Workspace\HHP-AutomationTesting\hhp\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;HHP&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DonatePageTest&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;pageURL&quot; value=&quot;/paypal-donate/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.hhp.testCases.HeaderTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;verifyDonateBtn&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- org.hhp.testCases.HeaderTest --&gt;
+      &lt;class name=&quot;org.hhp.testCases.TC_DonatePageTest_003&quot;/&gt;
+      &lt;class name=&quot;org.hhp.testCases.FooterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DonatePageTest --&gt;
+&lt;/suite&gt; &lt;!-- HHP --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HHP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HHP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DonatePageTest (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HHP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HHP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HHP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HHP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HHP');
+function tableData_HHP() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(40);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_Footer_PrivacyPolicy_Link')
+data.setCell(0, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_Education_Text')
+data.setCell(1, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_Footer_Column2_Text')
+data.setCell(2, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_Footer_Column1_Chart')
+data.setCell(3, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_Footer_Column3_QLinks_Text')
+data.setCell(4, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_Education_Image')
+data.setCell(5, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verify_Information_Text')
+data.setCell(6, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'headerSetup')
+data.setCell(7, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyWhoWeAreLnk')
+data.setCell(8, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_Footer_Column2_Title')
+data.setCell(9, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyLoginBtn')
+data.setCell(10, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_Equality_Image')
+data.setCell(11, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'footer_Setup')
+data.setCell(12, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verify_Row3_Text')
+data.setCell(13, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verify_Footer_TermsofService_Link')
+data.setCell(14, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verify_Footer_Column1_Title')
+data.setCell(15, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verify_Row1_Column1_Text1')
+data.setCell(16, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyNewsMenu')
+data.setCell(17, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyMedDisLnk')
+data.setCell(18, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verify_Support_Text')
+data.setCell(19, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verify_GiveToday_Btn')
+data.setCell(20, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verify_Footer_Column3_Title')
+data.setCell(21, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verify_Row1_Column1_Text2')
+data.setCell(22, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyWhatWeDoLnk')
+data.setCell(23, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verify_Footer_Column3_LinkedIn_Icon')
+data.setCell(24, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verify_Support_Image')
+data.setCell(25, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verify_Footer_MedicalDisclaimer_Link')
+data.setCell(26, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'donatePageSetup')
+data.setCell(27, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyWhyHHPMenu')
+data.setCell(28, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verify_Footer_Column3_Instagram_Icon')
+data.setCell(29, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'logoClickTest')
+data.setCell(30, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verify_Footer_Column3_Facebook_Icon')
+data.setCell(31, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verify_Footer_Column3_Twitter_Icon')
+data.setCell(32, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyHowToHelpMenu')
+data.setCell(33, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verify_GiveToday_Image')
+data.setCell(34, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verify_Footer_ContactUs_Link')
+data.setCell(35, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyLogo')
+data.setCell(36, 2, 'org.hhp.testCases.HeaderTest')
+data.setCell(36, 3, 0);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verify_Guidestar_Image')
+data.setCell(37, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(37, 3, 0);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verify_Greatnonprofits_Image')
+data.setCell(38, 2, 'org.hhp.testCases.FooterTest')
+data.setCell(38, 3, 0);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verify_Information_Image')
+data.setCell(39, 2, 'org.hhp.testCases.TC_DonatePageTest_003')
+data.setCell(39, 3, 0);
+window.suiteTableData['HHP']= { tableData: data, tableDiv: 'times-div-HHP'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 ms</span>
+              <div id="times-div-HHP">
+              </div> <!-- times-div-HHP -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HHP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HHP</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HHP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.hhp.testCases.HeaderTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifyDonateBtn</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.hhp.testCases.TC_DonatePageTest_003</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">org.hhp.testCases.FooterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HHP" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.hhp.testCases.HeaderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">headerSetup(/paypal-donate/)</span>
+                <span class="method-start">615 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHowToHelpMenu</span>
+                <span class="method-start">643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginBtn</span>
+                <span class="method-start">645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogo</span>
+                <span class="method-start">646 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMedDisLnk</span>
+                <span class="method-start">647 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyNewsMenu</span>
+                <span class="method-start">649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWhatWeDoLnk</span>
+                <span class="method-start">652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWhoWeAreLnk</span>
+                <span class="method-start">654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyWhyHHPMenu</span>
+                <span class="method-start">656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logoClickTest</span>
+                <span class="method-start">664 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.hhp.testCases.TC_DonatePageTest_003</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">donatePageSetup</span>
+                <span class="method-start">667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Education_Image</span>
+                <span class="method-start">670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Education_Text</span>
+                <span class="method-start">672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Equality_Image</span>
+                <span class="method-start">674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_GiveToday_Btn</span>
+                <span class="method-start">675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_GiveToday_Image</span>
+                <span class="method-start">677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Information_Image</span>
+                <span class="method-start">678 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Information_Text</span>
+                <span class="method-start">679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Row1_Column1_Text1</span>
+                <span class="method-start">681 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Row1_Column1_Text2</span>
+                <span class="method-start">682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Row3_Text</span>
+                <span class="method-start">685 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Support_Image</span>
+                <span class="method-start">686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Support_Text</span>
+                <span class="method-start">687 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.hhp.testCases.FooterTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">footer_Setup</span>
+                <span class="method-start">693 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column1_Chart</span>
+                <span class="method-start">697 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column1_Title</span>
+                <span class="method-start">698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column2_Text</span>
+                <span class="method-start">699 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column2_Title</span>
+                <span class="method-start">700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column3_Facebook_Icon</span>
+                <span class="method-start">703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column3_Instagram_Icon</span>
+                <span class="method-start">705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column3_LinkedIn_Icon</span>
+                <span class="method-start">706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column3_QLinks_Text</span>
+                <span class="method-start">708 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column3_Title</span>
+                <span class="method-start">709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_Column3_Twitter_Icon</span>
+                <span class="method-start">711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_MedicalDisclaimer_Link</span>
+                <span class="method-start">712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_ContactUs_Link</span>
+                <span class="method-start">712 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_PrivacyPolicy_Link</span>
+                <span class="method-start">715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Footer_TermsofService_Link</span>
+                <span class="method-start">716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Greatnonprofits_Image</span>
+                <span class="method-start">717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_Guidestar_Image</span>
+                <span class="method-start">720 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.hhp.testCases.HeaderTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">721 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

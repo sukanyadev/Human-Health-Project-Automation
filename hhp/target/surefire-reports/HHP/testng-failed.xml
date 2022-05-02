@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HHP]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="DonatePageTest(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="pageURL" value="/paypal-donate/"/>
+    <classes>
+      <class name="org.hhp.testCases.HeaderTest">
+        <methods>
+          <include name="verifyMedDisLnk"/>
+          <include name="tearDown"/>
+          <include name="verifyWhyHHPMenu"/>
+          <include name="verifyHowToHelpMenu"/>
+          <include name="verifyLoginBtn"/>
+          <include name="setup"/>
+          <include name="logoClickTest"/>
+          <include name="verifyWhoWeAreLnk"/>
+          <include name="verifyNewsMenu"/>
+          <include name="verifyLogo"/>
+          <include name="verifyWhatWeDoLnk"/>
+          <include name="headerSetup"/>
+        </methods>
+      </class> <!-- org.hhp.testCases.HeaderTest -->
+      <class name="org.hhp.testCases.TC_DonatePageTest_003">
+        <methods>
+          <include name="verify_GiveToday_Btn"/>
+          <include name="verify_Education_Image"/>
+          <include name="setup"/>
+          <include name="verify_Information_Text"/>
+          <include name="verify_Row3_Text"/>
+          <include name="verify_Support_Image"/>
+          <include name="verify_Information_Image"/>
+          <include name="donatePageSetup"/>
+          <include name="verify_Row1_Column1_Text1"/>
+          <include name="verify_Row1_Column1_Text2"/>
+          <include name="tearDown"/>
+          <include name="verify_Equality_Image"/>
+          <include name="verify_Education_Text"/>
+          <include name="verify_GiveToday_Image"/>
+          <include name="verify_Support_Text"/>
+        </methods>
+      </class> <!-- org.hhp.testCases.TC_DonatePageTest_003 -->
+      <class name="org.hhp.testCases.FooterTest">
+        <methods>
+          <include name="verify_Footer_Column3_QLinks_Text"/>
+          <include name="verify_Footer_Column3_Twitter_Icon"/>
+          <include name="setup"/>
+          <include name="verify_Footer_Column3_Instagram_Icon"/>
+          <include name="verify_Footer_MedicalDisclaimer_Link"/>
+          <include name="verify_Greatnonprofits_Image"/>
+          <include name="verify_Footer_Column3_Title"/>
+          <include name="verify_Footer_Column3_Facebook_Icon"/>
+          <include name="verify_Footer_Column3_LinkedIn_Icon"/>
+          <include name="verify_Footer_Column1_Chart"/>
+          <include name="verify_Footer_Column2_Text"/>
+          <include name="verify_Footer_ContactUs_Link"/>
+          <include name="tearDown"/>
+          <include name="verify_Footer_PrivacyPolicy_Link"/>
+          <include name="verify_Footer_TermsofService_Link"/>
+          <include name="footer_Setup"/>
+          <include name="verify_Guidestar_Image"/>
+          <include name="verify_Footer_Column1_Title"/>
+          <include name="verify_Footer_Column2_Title"/>
+        </methods>
+      </class> <!-- org.hhp.testCases.FooterTest -->
+    </classes>
+  </test> <!-- DonatePageTest(failed) -->
+</suite> <!-- Failed suite [HHP] -->

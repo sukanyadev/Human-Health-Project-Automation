@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="HHP">
+
+	<test name="DonatePageTest">
+		<parameter name="browser" value="chrome" />
+		<parameter name="pageURL" value="/paypal-donate/" />
+		<classes>
+			
+			<class name="org.hhp.testCases.HeaderTest">
+				<methods>
+					<exclude name="verifyDonateBtn" />
+				</methods>
+			</class>
+			<class name="org.hhp.testCases.TC_DonatePageTest_003" />
+			<class name="org.hhp.testCases.FooterTest" />
+		</classes>
+
+	</test>
+
+</suite>

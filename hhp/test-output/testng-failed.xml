@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HHP]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SignUpTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="pageURL" value="/paypal-donate/"/>
+    <classes>
+      <class name="org.hhp.testCases.HeaderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyWhoWeAreMenu"/>
+        </methods>
+      </class> <!-- org.hhp.testCases.HeaderTest -->
+    </classes>
+  </test> <!-- SignUpTest(failed) -->
+</suite> <!-- Failed suite [HHP] -->
